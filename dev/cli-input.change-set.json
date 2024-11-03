@@ -1,0 +1,29 @@
+{
+  "Parameters": [
+    {
+      "ParameterKey": "Env",
+      "ParameterValue": "dev"
+    },
+    {
+      "ParameterKey": "CloudTrailLogGroupName",
+      "ParameterValue": "/aws/cloudtrail/SecuritySettings"
+    },
+    {
+      "ParameterKey": "CognitoUserapplicationID",
+      "ParameterValue": "userclient-dev-id"
+    }
+  ],
+  "Capabilities": ["CAPABILITY_NAMED_IAM"],
+  "RoleARN": "arn:aws:iam::00000000000000000:role/iam-role-cli-cloudformation",
+  "tags": [
+    {
+      "Key": "Service",
+      "Value": "project1"
+    },
+    {
+      "Key": "Environment",
+      "Value": "${EnvName}"
+    }
+  ],
+  "ChangeSetType": "UPDATE"
+}

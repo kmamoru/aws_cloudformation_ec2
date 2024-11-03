@@ -1,0 +1,7 @@
+{
+  "Parameters": [],
+  "Capabilities": [
+    "CAPABILITY_NAMED_IAM"
+  ],
+  "EnableTerminationProtection": false
+}
